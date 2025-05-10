@@ -22,7 +22,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://tafrontendnext-cvy8q7djc-nikhil-chauhans-projects-f205663d.vercel.app"], 
+    allow_origins=["https://tafrontendnext.vercel.app/"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
